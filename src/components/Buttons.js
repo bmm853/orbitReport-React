@@ -9,8 +9,8 @@ const Buttons = (props) => {
         return (
           <button onClick={() => filterByType(data)} key={id}>{data} Orbit</button>
         );
-      })};
-      <button onClick={setSat(satData)}>All Orbits</button>
+      })}
+      <button onClick={() => setSat(satData)}>All Orbits</button>
       </div>
   );
 };
